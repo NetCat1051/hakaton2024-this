@@ -1,0 +1,78 @@
+content.login .block
+{
+	margin-top: 10%;
+	width: 340px;
+	height: 200px;
+	background-color: #52949D;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6px;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+content.login .block .title
+{
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+
+content.login .block .subtitle
+{
+	text-align: left;
+	color: #fff;
+	font-size: 16px;
+}
+
+content.login .block .textarea
+{
+	color: #fff;
+	font-weight: 600;
+	border: none;
+	background: #92BBc1;
+	border-radius: 2px;
+	border-bottom: 3px solid #fff;
+	width: 100%;
+	padding: 6px 6px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+content.login .block .textarea:focus
+{
+	outline: none;
+}
+
+content.login .block .restore
+{
+	color: #136AA9;
+	cursor: pointer;
+	font-size: 18px;
+	transition: .2s;
+	margin-left: -8px;
+}
+
+content.login .block .restore:hover
+{
+	color: #0d5f99;
+}
+
+content.login .block .sendbutton
+{
+	width: fit-content;
+	padding: 5px 15px;
+	font-weight: 600;
+	height: 20px;
+	border-radius: 4px;
+	background-color: #8bff56;
+	color: #000;
+	cursor: pointer;
+	transition: .2s;
+}
+
+content.login .block .sendbutton:hover
+{
+	background-color: #49d30a;
+}
